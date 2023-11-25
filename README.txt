@@ -7,3 +7,7 @@ Il suffit de lancer les Notebooks avec Visual Studio Code. Dans le terminal vous
 Dans ce cas, un répertoir sera créé dans Challenge.
 
 Ensuite, pour l'installation des bibliothèques, ce sera à faire dans les notebooks, la commande est déjà écrite au début de chaque notebook. 
+
+Le notebook challenge.ipynb contient les analyses et l'entraînement du modèle.
+
+Le notebook de test permet de tester notre modèle.
