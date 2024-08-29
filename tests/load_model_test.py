@@ -21,8 +21,8 @@ def test_load_model_success():
         model = load_model_with_weights("test_model")
 
         # Vérifier que load_model et load_weights ont été appelés correctement
-        mock_load_model.assert_called_once_with("models/test_model.h5")
-        mock_load_weights.assert_called_once_with("models/test_model_weights.h5")
+        mock_load_model.assert_called_once_with("src/models/test_model.h5")
+        mock_load_weights.assert_called_once_with("src/models/test_model_weights.h5")
 
         # Vérifier que le modèle renvoyé est correct
         assert model == mock_model
