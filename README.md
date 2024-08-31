@@ -18,12 +18,17 @@ Une approche basique a été faite concernant ce projet, vu que ce n'est pas une
 Il faut installer Python sur votre ordinateur pour démarrer l'API.
 Dans le terminal vous pouvez créer et activer un nouvel environnement avec la commande :
 > python -m venv venv
+
 > venv\Scripts\activate
+
 (venv est le nom de l'environnement)
 Ensuite, pour l'installation des bibliothèques, il faut utiliser le fichier requirements.txt en tapant
+
 > pip install -r requirements.txt
 Enfin, il suffit de taper
+
 > python .\src\api.py
+
 Cela lancera l'API avec une génération d'URL que vous pourrez utiliser en ajoutant à la fin /docs pour accéder à l'IHM du Swagger FastAPI
 https://fastapi.tiangolo.com/features/#automatic-docs
 
