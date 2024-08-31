@@ -1,4 +1,4 @@
-# test_load_model.py
+# test load model
 from unittest.mock import MagicMock, patch
 
 import pytest
